@@ -29,11 +29,11 @@ jobs:
 
     # 4. Build the APK (Change to assembleRelease if you have signing config set up)
     - name: Build with Gradle
-      run: ./gradlew assembleRelease
+      run: ./gradlew assembleDebug
 
     # 5. Upload the APK as an artifact so you can download it
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: app-release
-        path: app/build/outputs/apk/release/app-release.apk
+        name: app-debug
+        path: app/build/outputs/apk/debug/app-debug.apk
