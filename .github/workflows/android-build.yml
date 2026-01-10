@@ -22,7 +22,13 @@ jobs:
         cache: gradle
 
     - name: Generate ./gradlew (pinned to version 7.6)
-      run: touch empty && gradle wrapper --gradle-version 7.6 --build-file empty --settings-file empty
+      run: |
+        mkdir emptydir
+        cd emptydir
+        gradle wrapper --gradle-version 7.6
+        mv gradle ..
+        mv gradlew ..
+        cd ..
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
