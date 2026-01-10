@@ -23,12 +23,14 @@ jobs:
 
     - name: Generate ./gradlew (pinned to version 7.6)
       run: |
-        mkdir emptydir
-        cd emptydir
+        export D=`pwd`
+        echo $D
+        mkdir /tmp/emptydir
+        pushd /tmp/emptydir
         gradle wrapper --gradle-version 7.6
-        mv gradle ..
-        mv gradlew ..
-        cd ..
+        mv gradle $D
+        mv gradlew $D
+        popd
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
