@@ -115,6 +115,8 @@ key 9 {
   base: '9'
   shift: '\u0028'
   capslock+shift: '\u0028'
+  ralt: '\u201e'
+  ralt+shift: '\u00ab'
 }
 
 key 0 {
@@ -122,6 +124,8 @@ key 0 {
   base: '0'
   shift: '\u0029'
   capslock+shift: '\u0029'
+  ralt: '\u201c'
+  ralt+shift: '\u00bb'
 }
 
 key MINUS {
@@ -129,6 +133,7 @@ key MINUS {
   base: '\u002d'
   shift: '\u005f'
   capslock+shift: '\u005f'
+  ralt: '\u2014'
 }
 
 key EQUALS {
@@ -208,6 +213,8 @@ key O {
   shift: '\u040e'
   capslock: '\u040e'
   capslock+shift: '\u045e'
+  ralt: '\u0449'
+  ralt+shift: '\u0429'
 }
 
 key P {
@@ -224,13 +231,17 @@ key LEFT_BRACKET {
   shift: '\u0425'
   capslock: '\u0425'
   capslock+shift: '\u0445'
+  ralt: '\u0457'
+  ralt+shift: '\u0407'
 }
 
 key RIGHT_BRACKET {
   label: '\u0027'
-  base: '\u0027'
+  base: '\u02bc'
   shift: '\u0027'
   capslock+shift: '\u0027'
+  ralt: '\u044a'
+  ralt+shift: '\u042a'
 }
 
 key A {
@@ -319,6 +330,8 @@ key APOSTROPHE {
   shift: '\u042d'
   capslock: '\u042d'
   capslock+shift: '\u044d'
+  ralt: '\u0454'
+  ralt+shift: '\u0404'
 }
 
 key GRAVE {
@@ -327,6 +340,8 @@ key GRAVE {
   shift: '\u0401'
   capslock: '\u0401'
   capslock+shift: '\u0451'
+  ralt: '\u2019'
+  ralt+shift: '\u2018'
 }
 
 key BACKSLASH {
@@ -334,6 +349,8 @@ key BACKSLASH {
   base: '\u005c'
   shift: '\u002f'
   capslock+shift: '\u002f'
+  ralt: '\u0491'
+  ralt+shift: '\u0490'
 }
 
 key Z {
@@ -374,6 +391,8 @@ key B {
   shift: '\u0406'
   capslock: '\u0406'
   capslock+shift: '\u0456'
+  ralt: '\u0438'
+  ralt+shift: '\u0418'
 }
 
 key N {
@@ -413,6 +432,7 @@ key SLASH {
   base: '\u002e'
   shift: '\u002c'
   capslock+shift: '\u002c'
+  ralt: '\u2026'
 }
 
 key SPACE {
