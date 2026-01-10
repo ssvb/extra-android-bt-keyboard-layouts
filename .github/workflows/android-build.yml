@@ -29,7 +29,7 @@ jobs:
 
     # 4. Build the APK (Change to assembleRelease if you have signing config set up)
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      run: ./gradlew assembleDebug --warning-mode all
 
     # 5. Upload the APK as an artifact so you can download it
     - name: Upload APK
