@@ -141,6 +141,7 @@ key EQUALS {
   base: '\u003d'
   shift: '\u002b'
   capslock+shift: '\u002b'
+  ralt: '\u0301'
 }
 
 key Q {
