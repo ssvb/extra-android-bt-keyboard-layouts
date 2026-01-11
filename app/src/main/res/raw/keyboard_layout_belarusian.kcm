@@ -198,6 +198,7 @@ key U {
   shift: '\u0413'
   capslock: '\u0413'
   capslock+shift: '\u0433'
+  ctrl+shift: '\uef00'
 }
 
 key I {
