@@ -13,6 +13,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_bangla_probhat_layout" android:name="keyboard_layout_bangla_probhat_layout" android:keyboardLayout="@raw/keyboard_layout_bangla_probhat_layout"/>
     <keyboard-layout android:label="@string/keyboard_layout_bashkir" android:name="keyboard_layout_bashkir" android:keyboardLayout="@raw/keyboard_layout_bashkir"/>
     <keyboard-layout android:label="@string/keyboard_layout_belarusian" android:name="keyboard_layout_belarusian" android:keyboardLayout="@raw/keyboard_layout_belarusian"/>
+    <keyboard-layout android:label="@string/keyboard_layout_belarusian_latin" android:name="keyboard_layout_belarusian_latin" android:keyboardLayout="@raw/keyboard_layout_belarusian_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_belgian_comma" android:name="keyboard_layout_belgian_comma" android:keyboardLayout="@raw/keyboard_layout_belgian_comma"/>
     <keyboard-layout android:label="@string/keyboard_layout_belgian_period" android:name="keyboard_layout_belgian_period" android:keyboardLayout="@raw/keyboard_layout_belgian_period"/>
     <keyboard-layout android:label="@string/keyboard_layout_bengali_inscript" android:name="keyboard_layout_bengali_inscript" android:keyboardLayout="@raw/keyboard_layout_bengali_inscript"/>
